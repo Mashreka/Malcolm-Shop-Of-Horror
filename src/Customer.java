@@ -13,7 +13,7 @@ public class Customer {
             shoppingBag++;
         }
     }
-
+    //Displaying customer information
     void customerInfo() {
         System.out.println("You have a total of " + shoppingBag + " items in your shopping bag, The total cost was " + customerTotal + "SEK");
     }
